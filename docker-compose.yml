@@ -1,0 +1,5 @@
+# docker-compose.yml
+services:
+  app:
+    build: .
+    image: localhost:32000/personal-website:${TAG:-latest}
